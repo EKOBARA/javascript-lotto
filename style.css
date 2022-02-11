@@ -1,0 +1,47 @@
+#app {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+ 
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(242, 238, 238);
+    border: 2px solid lightskyblue;
+    padding: 25px;
+    text-align: right;
+} 
+
+.modal-text {
+    text-align: left;
+
+}
+
+.play {
+    padding: 3em;
+}
+
+.play:focus{
+    background-color: lightskyblue;
+}
+
+.close {
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(171, 171, 171);
+    border: 2px solid black;
+
+}
+
+p {
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: 15px;
+} 
